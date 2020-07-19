@@ -1,0 +1,14 @@
+<header class="w-100 pv2" role="banner">
+  {% include logo.html %}
+  <nav class="w-75 center">
+    <ul class="list dn flex-ns justify-between w-100 pa2">
+      {% for item in site.data.nav %} {% if item.home == true %}
+      <li>
+        <a href="{{ item.href }}" class="link hover-type f4 ttu tracked">
+          {{ item.item }}
+        </a>
+      </li>
+      {% endif %} {% endfor %}
+    </ul>
+  </nav>
+</header>

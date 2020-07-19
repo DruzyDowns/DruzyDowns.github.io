@@ -1,0 +1,64 @@
+:root {
+  --main-bg: #111;
+  --fcolor: #fff;
+  --fcolor2: #14fdc0;
+  --font-copy: "Fira Mono", monospace;
+  --main-border: #fff;
+  --hover: #14fec0;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--fcolor);
+}
+
+.font-copy {
+  font-family: var(--font-copy);
+}
+
+.overlay {
+  transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transform: translateY(100%);
+}
+
+.border-main {
+  border-color: var(--main-border);
+}
+.fcolor {
+  color: var(--fcolor);
+}
+.fcolor2 {
+  color: var(--fcolor2);
+}
+.hover-type {
+  transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+.hover-type:hover {
+  color: var(--hover);
+}
+.logo-color {
+  fill: var(--fcolor);
+}
+.logo-color:hover {
+  fill: var(--fcolor2);
+}
+
+.link {
+  color: var(--fcolor);
+}
+.link:visited {
+  color: pink;
+}
+
+.max {
+  height: max-content;
+}
+.fit {
+  height: fit-content;
+}
+p.rubric:first-letter {
+  font-size: 2em;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
