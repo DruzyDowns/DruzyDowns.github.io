@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Fleet Supply Co.",
+    "info": "Branding & Website",
+    "href": "info.html",
+    "type": "website"
+  },
+  {
+    "title": "Omaha Girls Rock Camp",
+    "info": "Video Ad",
+    "href": "work.html",
+    "type": "multimedia"
+  },
+  {
+    "title": "Prairie Aura",
+    "info": "Branding & Hardware",
+    "href": "log.html",
+    "type": "multimedia"
+  }
+]

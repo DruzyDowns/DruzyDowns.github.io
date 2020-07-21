@@ -1,6 +1,6 @@
 [
-  { "item": "/about", "href": "/about.html", "home": true },
-  { "item": "/portfolio", "href": "/portfolio.html", "home": true },
+  { "item": "/info", "href": "/info.html", "home": true },
+  { "item": "/work", "href": "/work.html", "home": true },
   { "item": "/log", "href": "/log.html", "home": true },
   { "item": "/contact", "href": "/contact.html", "home": true },
   { "item": "all posts", "href": "/log.html", "home": false },
