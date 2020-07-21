@@ -3,6 +3,7 @@ layout: default
 title: "omaha girls rock camp video announcement"
 date: 2020-07-20 11:33:47 -0400
 categories: work
+permalink: /work/omahagirlsrock/
 ---
 
 The first generation, named Ipsum in Japan and Picnic in export markets,

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}"> {%- include
+head.html -%}
+
+<body class="font-copy">
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="flex">
+      <p class="vertical flip ttu tracked ma0 ph1">{{ page.title }}</p>
+
+      {% include frame.html %}
+
+      <p class="vertical ttu tracked ma0 ph1">{{ page.date }}</p>
+    </div>
+  </main>
+
+  {%- include footer.html -%} {%- include scripts.html -%}
+</body>

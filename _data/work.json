@@ -2,19 +2,19 @@
   {
     "title": "Fleet Supply Co.",
     "info": "Branding & Website",
-    "href": "info.html",
+    "post": "2020-07-20-fleet-supply-company",
     "type": "website"
   },
   {
     "title": "Omaha Girls Rock Camp",
     "info": "Video Ad",
-    "href": "work.html",
+    "post": "2020-07-20-omaha-girls-rock",
     "type": "multimedia"
   },
   {
     "title": "Prairie Aura",
     "info": "Branding & Hardware",
-    "href": "log.html",
+    "post": "2020-07-20-prairie-aura",
     "type": "multimedia"
   }
 ]

@@ -1,15 +1,12 @@
 ---
-layout: default
-title: "fleet supply co."
+layout: post
+title: "fleet supply company"
 date: 2020-07-20 11:33:47 -0400
 categories: work
+permalink: /work/fleetsupply/
 ---
 
-The first generation, named Ipsum in Japan and Picnic in export markets,
-was built from 1995–2001, with export versions arriving in 1996. A
-commercial version was sold as the Toyota SportsVan in Denmark. It had a
-choice of two inline-four petrol engines, ranging from 1.8- to 2.0-litres,
-as well as a 2.2-litre diesel engine, the 3C-TE.
+Fleet Supply Company
 
 {% highlight ruby %}
 def print_hi(name)

@@ -3,6 +3,7 @@ layout: default
 title: "prairie aura"
 date: 2020-07-20 11:33:47 -0400
 categories: work
+permalink: /work/prairieaura/
 ---
 
 The first generation, named Ipsum in Japan and Picnic in export markets,
