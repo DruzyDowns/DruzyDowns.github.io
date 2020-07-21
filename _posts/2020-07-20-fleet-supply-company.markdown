@@ -3,6 +3,7 @@ layout: post
 title: "fleet supply company"
 date: 2020-07-20 11:33:47 -0400
 categories: work
+frame: street.png
 permalink: /work/fleetsupply/
 ---
 
