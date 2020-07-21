@@ -40,6 +40,17 @@ body {
 .hover-type:hover {
   color: var(--hover);
 }
+.active-page a {
+  color: var(--hover);
+}
+.active-page::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 14px;
+  border: solid 1px var(--hover);
+  animation: blink 1s step-end infinite;
+}
 .logo-color {
   fill: var(--fcolor);
 }

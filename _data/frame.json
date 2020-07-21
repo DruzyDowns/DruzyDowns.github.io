@@ -1,0 +1,6 @@
+[
+  { "item": "arch", "src": "/assets/img/arch.png", "home": true },
+  { "item": "atrium", "src": "/assets/img/atrium.png", "home": true },
+  { "item": "hound", "src": "/assets/img/hound.png", "home": true },
+  { "item": "street", "src": "/assets/img/street.png", "home": true }
+]
