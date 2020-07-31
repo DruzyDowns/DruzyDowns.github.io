@@ -1,15 +1,42 @@
 ---
 layout: default
+frame: atrium.png
 ---
 
-<ul
-  class="nav-menu list dn flex-ns justify-between items-center w-100 pa2 mt0 bb border-main"
->
-  {% for item in site.data.work %} {% if item.type == website %}
-  <li class="">
-    <a href="{{ item.href }}" class="link hover-type f5 ttu tracked">
-      {{ item.title }}
-    </a>
-  </li>
-  {% endif %} {% endfor %}
-</ul>
+<div class="flex flex-wrap ph3">
+  <div class="w-100 w-40-ns ph2">
+    <div class="w-100 pa3 ba border-main br3 bw1 max">
+      <div class="w-100 ba border-main br3 bw1 pa0 ma0">
+        <img
+          src="/assets/img/atrium.png"
+          class="w-100 pa0 ma0 br3 bw2 frame-image"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="w-100 w-50-ns ph2">
+    <h1 class="font-hl ttc tracked lh-title mt4 mt0-ns">
+      Recent Works
+    </h1>
+
+    <ul class="list ph0">
+      {% for projects in site.data.work %}
+      <a
+        class="link {{projects.class}}"
+        href="{{ site.url }}/work/{{ projects.permalink }}"
+      >
+        <li
+          class="pt4 bb bw1 border-main flex justify-between items-center hover-list"
+        >
+          <p class="ttu tracked">{{ projects.title }}</p>
+
+          <p class="f6">{{ projects.info }}</p>
+        </li>
+      </a>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% include frame-script.html %}

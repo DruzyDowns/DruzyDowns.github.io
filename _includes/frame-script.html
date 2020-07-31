@@ -1,0 +1,27 @@
+<script type="text/javascript">
+  var img = document.querySelector("img.frame-image");
+
+  var fleet = document.querySelector("a.fleet");
+  var girlsrock = document.querySelector("a.girlsrock");
+  var aura = document.querySelector("a.aura");
+
+  fleet.addEventListener("mouseover", function () {
+    img.src = "/assets/img/fleet.png";
+  });
+  girlsrock.addEventListener("mouseover", function () {
+    img.src = "/assets/img/girlsrock.png";
+  });
+  aura.addEventListener("mouseover", function () {
+    img.src = "/assets/img/aura.svg";
+  });
+
+  fleet.addEventListener("mouseleave", function () {
+    img.src = "/assets/img/{{page.frame}}";
+  });
+  girlsrock.addEventListener("mouseleave", function () {
+    img.src = "/assets/img/{{page.frame}}";
+  });
+  aura.addEventListener("mouseleave", function () {
+    img.src = "/assets/img/{{page.frame}}";
+  });
+</script>

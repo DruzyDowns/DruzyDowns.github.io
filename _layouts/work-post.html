@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}"> {%- include
+head.html -%}
+
+<body class="font-copy">
+  {%- include header.html -%}
+
+  <main class="page-content" aria-label="Content">
+    <div class="flex flex-wrap">
+      <div class="flex w-100 w-40-ns ph2">
+        <p class="vertical flip ttu tracked ma0 ph1">{{ page.title }}</p>
+
+        {% include frame.html %}
+
+        <p class="vertical ttu tracked ma0 ph1">{{ page.date }}</p>
+      </div>
+      <div class="w-100 w-50-ns ph2">
+        <h1 class="ttu tracked f3 font-hl mt0">{{ page.title }}</h1>
+        <p class="ttc f5">my role: {{ page.role }}</p>
+        {% if page.team %}
+        <p class="ttc f5">created with: {{ page.team }}</p>
+        {% endif %}
+        <div class="bb bw1 border-main pv2">
+          {% if page.type == "website" %}
+          <div class="flex items-center project-link hover-svg">
+            {% include link.html %}
+            <a
+              href="{{ page.projectUrl }}"
+              target="_blank"
+              class="ttu tracked ml2 f5 link"
+              >go to website</a
+            >
+          </div>
+          {% elsif page.type == "media" %}
+          <div class="flex items-center project-link hover-svg">
+            {% include link.html %}
+            <a
+              href="{{ page.projectUrl }}"
+              target="_blank"
+              class="ttu tracked ml2 f5 link"
+              >view media on {{ page.host }}</a
+            >
+          </div>
+          {% elsif page.type == "github" %}
+          <div class="flex items-center project-link hover-svg">
+            {% include link.html %}
+            <a
+              href="{{ page.projectUrl }}"
+              target="_blank"
+              class="ttu tracked ml2 f5 link"
+              >go to github repo</a
+            >
+          </div>
+          {% endif %}
+        </div>
+        {{ content }}
+      </div>
+    </div>
+  </main>
+
+  {%- include footer.html -%} {%- include scripts.html -%}
+</body>

@@ -49,6 +49,32 @@ p.flip {
 .hover-type:hover {
   color: var(--hover);
 }
+
+.hover-list p {
+  transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.hover-list:hover > p {
+  color: var(--hover);
+}
+
+.hover-svg:hover .link-line {
+  stroke: var(--hover);
+}
+.hover-svg:hover .link-fill {
+  fill: var(--hover);
+}
+.project-link a {
+  transition: none !important;
+}
+.hover-svg:hover a {
+  color: var(--hover);
+}
+
+.project-link a:hover {
+  color: var(--hover);
+}
+
 .active-page a {
   color: var(--hover);
 }
@@ -112,6 +138,16 @@ nav ul li a:hover::after {
   -webkit-text-fill-color: var(--main-bg);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--main-border);
+}
+
+.link-line {
+  fill: none;
+  stroke: var(--main-border);
+  stroke-miterlimit: 10;
+  stroke-width: 1px;
+}
+.link-fill {
+  fill: var(--main-border);
 }
 
 @keyframes blink {
