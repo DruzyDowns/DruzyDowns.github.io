@@ -51,6 +51,16 @@ head.html -%}
               >go to github repo</a
             >
           </div>
+          {% elsif page.type == "app" %}
+          <div class="flex items-center project-link hover-svg">
+            {% include link.html %}
+            <a
+              href="{{ page.projectUrl }}"
+              target="_blank"
+              class="ttu tracked ml2 f5 link"
+              >go to web app</a
+            >
+          </div>
           {% endif %}
         </div>
         {{ content }}

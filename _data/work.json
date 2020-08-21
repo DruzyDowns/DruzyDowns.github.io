@@ -22,5 +22,13 @@
     "permalink": "prairieaura",
     "type": "github",
     "class": "aura"
+  },
+  {
+    "title": "jiffy",
+    "info": "react app",
+    "post": "2020-07-31-jiffy",
+    "permalink": "jiffy",
+    "type": "github",
+    "class": "jiffy"
   }
 ]

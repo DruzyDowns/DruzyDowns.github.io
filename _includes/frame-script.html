@@ -4,6 +4,7 @@
   var fleet = document.querySelector("a.fleet");
   var girlsrock = document.querySelector("a.girlsrock");
   var aura = document.querySelector("a.aura");
+  var jiffy = document.querySelector("a.jiffy");
 
   fleet.addEventListener("mouseover", function () {
     img.src = "/assets/img/fleet.png";
@@ -14,6 +15,9 @@
   aura.addEventListener("mouseover", function () {
     img.src = "/assets/img/aura.svg";
   });
+  jiffy.addEventListener("mouseover", function () {
+    img.src = "/assets/img/jiffy.png";
+  });
 
   fleet.addEventListener("mouseleave", function () {
     img.src = "/assets/img/{{page.frame}}";
@@ -22,6 +26,9 @@
     img.src = "/assets/img/{{page.frame}}";
   });
   aura.addEventListener("mouseleave", function () {
+    img.src = "/assets/img/{{page.frame}}";
+  });
+  jiffy.addEventListener("mouseleave", function () {
     img.src = "/assets/img/{{page.frame}}";
   });
 </script>

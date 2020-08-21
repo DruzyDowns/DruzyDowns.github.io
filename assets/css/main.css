@@ -1,8 +1,14 @@
+@font-face {
+  font-family: gintronic;
+  src: url("/assets/css/fonts/gintronic-regular.woff2") format("woff2"),
+    url("/assets/css/fonts/gintronic-regular.woff") format("woff");
+}
+
 :root {
   --main-bg: #111;
   --fcolor: #fff;
   --fcolor2: #14fdc0;
-  --font-copy: "Fira Mono", monospace;
+  --font-copy: "gintronic", monospace;
   --font-hl: itc-avant-garde-gothic-pro, sans-serif;
   --main-border: #fff;
   --hover: #14fec0;
@@ -106,7 +112,7 @@ p.rubric:first-letter {
   font-size: 2em;
   line-height: 1;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 0px;
 }
 
 nav ul li a::after {
