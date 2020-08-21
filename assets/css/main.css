@@ -24,7 +24,7 @@
   --fcolor: #fff;
   --fcolor2: #14fdc0;
   --font-copy: "sporting", monospace;
-  --font-hl: itc-avant-garde-gothic-pro, sans-serif;
+  --font-hl: "sporting-bold", sans-serif;
   --main-border: #fff;
   --hover: #14fec0;
 }
@@ -106,10 +106,6 @@ p.flip {
   color: var(--hover);
 }
 
-li.active-page::before {
-  color: var(--hover);
-}
-
 /* Active Menu item Cursor
 
 .active-page::after {
@@ -148,6 +144,14 @@ p.rubric:first-letter {
 ul.nav-menu li::before {
   content: "[";
   font-family: "mister-tools";
+}
+
+li.active-page::before {
+  color: var(--hover);
+}
+
+ul.nav-menu li:hover {
+  color: var(--hover);
 }
 
 nav ul li a::after {
