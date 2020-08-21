@@ -3,12 +3,27 @@
   src: url("fonts/gintronic-regular.woff2") format("woff2"),
     url("fonts/gintronic-regular.woff") format("woff");
 }
+@font-face {
+  src: url(fonts/misterpixeltools.otf);
+  font-family: mister-tools;
+  font-weight: 400;
+}
+@font-face {
+  src: url(fonts/SportingGrotesque-Regular.otf);
+  font-family: sporting;
+  font-weight: 400;
+}
+@font-face {
+  src: url(fonts/SportingGrotesque-Bold.otf);
+  font-family: sporting-bold;
+  font-weight: 700;
+}
 
 :root {
   --main-bg: #111;
   --fcolor: #fff;
   --fcolor2: #14fdc0;
-  --font-copy: "gintronic", monospace;
+  --font-copy: "sporting", monospace;
   --font-hl: itc-avant-garde-gothic-pro, sans-serif;
   --main-border: #fff;
   --hover: #14fec0;
@@ -26,8 +41,14 @@ body {
   font-family: var(--font-hl);
 }
 
-.gin {
-  font-family: "gintronic", monospace;
+.mister {
+  font-family: "mister-tools", sans-serif;
+}
+.sporting {
+  font-family: "sporting", sans-serif;
+}
+.sporting-bold {
+  font-family: "sporting-bold", sans-serif;
 }
 
 .overlay {
@@ -85,9 +106,12 @@ p.flip {
   color: var(--hover);
 }
 
-.active-page a {
+li.active-page::before {
   color: var(--hover);
 }
+
+/* Active Menu item Cursor
+
 .active-page::after {
   content: "";
   position: absolute;
@@ -96,6 +120,8 @@ p.flip {
   border: solid 1px var(--hover);
   animation: blink 1s step-end infinite;
 }
+*/
+
 .logo-color {
   fill: var(--fcolor);
 }
@@ -117,6 +143,11 @@ p.rubric:first-letter {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 0px;
+}
+
+ul.nav-menu li::before {
+  content: "[";
+  font-family: "mister-tools";
 }
 
 nav ul li a::after {

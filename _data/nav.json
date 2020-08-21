@@ -1,8 +1,8 @@
 [
-  { "item": "/contact", "href": "/contact.html", "home": true },
-  { "item": "/work", "href": "/work.html", "home": true },
-  { "item": "/log", "href": "/log.html", "home": true },
-  { "item": "/friends", "href": "/family.html", "home": true },
+  { "item": "contact", "href": "/contact.html", "home": true },
+  { "item": "work", "href": "/work.html", "home": true },
+  { "item": "log", "href": "/log.html", "home": true },
+  { "item": "friends", "href": "/family.html", "home": true },
   { "item": "all posts", "href": "/log.html", "home": false },
   { "item": "tutorials", "href": "/tutorials.html", "home": false },
   { "item": "contact", "href": "/contact.html", "home": false }
