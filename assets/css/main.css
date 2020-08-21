@@ -1,7 +1,7 @@
 @font-face {
   font-family: gintronic;
-  src: url("/assets/css/fonts/gintronic-regular.woff2") format("woff2"),
-    url("/assets/css/fonts/gintronic-regular.woff") format("woff");
+  src: url("fonts/gintronic-regular.woff2") format("woff2"),
+    url("fonts/gintronic-regular.woff") format("woff");
 }
 
 :root {
@@ -26,12 +26,16 @@ body {
   font-family: var(--font-hl);
 }
 
+.gin {
+  font-family: "gintronic", monospace;
+}
+
 .overlay {
   transition: transform 0.5s cubic-bezier(0.65, 0.05, 0.36, 1);
   transform: translateY(100%);
 }
 
-.border-main {
+.main-border {
   border-color: var(--main-border);
 }
 .fcolor {
