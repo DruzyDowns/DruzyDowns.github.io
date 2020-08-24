@@ -109,10 +109,11 @@ p.flip {
 .active-page::after {
   content: "";
   position: absolute;
-  width: 10px;
+  width: 9px;
   height: 12px;
   border: solid 1px var(--hover);
   animation: blink 1s step-end infinite;
+  transform: translateY(1px);
 }
 
 .logo-color {
