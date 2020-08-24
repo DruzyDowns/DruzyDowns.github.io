@@ -34,6 +34,17 @@ body {
   color: var(--fcolor);
 }
 
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+  transform: translateY(-15px);
+}
+
 .font-copy {
   font-family: var(--font-copy);
 }
