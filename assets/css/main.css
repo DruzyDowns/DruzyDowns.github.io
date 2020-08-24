@@ -106,17 +106,14 @@ p.flip {
   color: var(--hover);
 }
 
-/* Active Menu item Cursor
-
 .active-page::after {
   content: "";
   position: absolute;
   width: 10px;
-  height: 14px;
+  height: 12px;
   border: solid 1px var(--hover);
   animation: blink 1s step-end infinite;
 }
-*/
 
 .logo-color {
   fill: var(--fcolor);
@@ -144,6 +141,7 @@ p.rubric:first-letter {
 ul.nav-menu li::before {
   content: "[";
   font-family: "mister-tools";
+  transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
 li.active-page::before {
@@ -154,6 +152,7 @@ ul.nav-menu li:hover {
   color: var(--hover);
 }
 
+/* nav hover cursor
 nav ul li a::after {
   content: "";
   position: absolute;
@@ -167,6 +166,7 @@ nav ul li a::after {
 nav ul li a:hover::after {
   visibility: visible;
 }
+*/
 
 .cursor::after {
   content: "";

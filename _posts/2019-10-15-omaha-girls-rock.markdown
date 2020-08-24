@@ -4,7 +4,7 @@ title: "omaha GRC video announcement"
 role: art direction, illustration, editing
 team: tristan whitehill
 date: 2019-10-15 11:33:47 -0400
-categories: work
+category: work
 type: media
 frame: girlsrock.png
 permalink: /work/omahagirlsrock/
