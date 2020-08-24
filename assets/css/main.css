@@ -145,7 +145,7 @@ ul.nav-menu li::before {
 }
 
 span.mister {
-  transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
+  transition: color 0.15s ease-in;
 }
 
 li.active-page::before {
