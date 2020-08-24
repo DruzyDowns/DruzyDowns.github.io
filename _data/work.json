@@ -8,7 +8,7 @@
     "class": "fleet"
   },
   {
-    "title": "Omaha Girls Rock Camp",
+    "title": "Omaha Girls Rock",
     "info": "art direction",
     "post": "2020-07-20-omaha-girls-rock",
     "permalink": "omahagirlsrock",
@@ -30,5 +30,13 @@
     "permalink": "jiffy",
     "type": "github",
     "class": "jiffy"
+  },
+  {
+    "title": "La Chua Vintage",
+    "info": "Shopify Theme",
+    "post": "2020-07-31-jiffy",
+    "permalink": "lachua",
+    "type": "website",
+    "class": "lachua"
   }
 ]

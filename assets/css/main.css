@@ -74,6 +74,11 @@ p.flip {
   text-align: right;
 }
 
+::selection {
+  color: var(--main-bg);
+  background-color: var(--hover);
+}
+
 .hover-type {
   transition: 0.2s cubic-bezier(0.65, 0.05, 0.36, 1);
 }

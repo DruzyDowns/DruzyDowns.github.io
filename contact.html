@@ -1,5 +1,42 @@
 ---
 layout: default
+frame: keys.jpg
 ---
 
-{% include frame.html %}
+<div class="flex flex-wrap justify-center ph3 ph0-l">
+  <div class="w-100 w-40-ns pr2">
+    <div class="w-100 pa3 ba main-border br3 bw1 max">
+      <div class="w-100 ba main-border br3 bw1 pa0 ma0">
+        <img
+          src="/assets/img/pink.jpg"
+          class="w-100 pa0 ma0 br3 bw2 frame-image"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="w-100 w-40-ns pl2">
+    <h1 class="font-hl ttc tracked lh-title mt4 mt0-ns">
+      Get in touch.
+    </h1>
+
+    <ul class="list ph0">
+      {% for items in site.data.contact %}
+      <a class="link {{projects.class}}" href="{{ projects.address }}">
+        <li
+          class="pt4 bb bw1 main-border flex justify-between items-center hover-list"
+        >
+          <p class="ttu tracked">{{ items.title }}</p>
+
+          <p class="f6">
+            {{ items.info }}
+            <span class="mister f4">{{ items.icon }}</span>
+          </p>
+        </li>
+      </a>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+{% include frame-script.html %}

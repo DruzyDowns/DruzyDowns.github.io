@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Downs@Hey.com",
+    "info": "electronic mail",
+    "icon": "D",
+    "address": "mailto:downs@hey.com",
+    "class": "mail"
+  },
+  {
+    "title": "@druzydowns",
+    "info": "the hub",
+    "icon": "Z",
+    "address": "mailto:downs@hey.com",
+    "class": "mail"
+  },
+  {
+    "title": "@druzydowns",
+    "info": "bird message",
+    "icon": "G",
+    "address": "mailto:downs@hey.com",
+    "class": "mail"
+  },
+  {
+    "title": "@computer-computer",
+    "info": "dribbler",
+    "icon": "9",
+    "address": "mailto:downs@hey.com",
+    "class": "mail"
+  },
+  {
+    "title": "@druzy",
+    "info": "dev 2",
+    "icon": "V",
+    "address": "mailto:downs@hey.com",
+    "class": "mail"
+  }
+]

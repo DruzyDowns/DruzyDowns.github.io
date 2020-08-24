@@ -3,11 +3,11 @@
     class="nav-menu list flex justify-between items-center w-100 pa2 mt0 bb-ns bw1 border-main"
   >
     {% for item in site.data.nav %} {% if item.home == true %}
-    <li class="{% if item.href == page.url %}active-page{% endif %}">
-      <a href="{{ item.href }}" class="link hover-type f7 f6-ns ttu tracked">
+    <a href="{{ item.href }}" class="link hover-type f7 f6-ns ttu tracked">
+      <li class="{% if item.href == page.url %}active-page{% endif %}">
         {{ item.item }}
-      </a>
-    </li>
+      </li>
+    </a>
     {% endif %} {% endfor %}
   </ul>
 </nav>
