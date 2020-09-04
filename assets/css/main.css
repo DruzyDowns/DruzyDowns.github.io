@@ -4,17 +4,17 @@
     url("fonts/gintronic-regular.woff") format("woff");
 }
 @font-face {
-  src: url("/fonts/MisterPixelTools.otf");
+  src: url(fonts/MisterPixelTools.otf);
   font-family: mister-tools;
   font-weight: 400;
 }
 @font-face {
-  src: url("/fonts/SportingGrotesque-Regular.otf");
+  src: url(fonts/SportingGrotesque-Regular.otf);
   font-family: sporting;
   font-weight: 400;
 }
 @font-face {
-  src: url("/fonts/SportingGrotesque-Bold.otf");
+  src: url(fonts/SportingGrotesque-Bold.otf);
   font-family: sporting-bold;
   font-weight: 700;
 }
