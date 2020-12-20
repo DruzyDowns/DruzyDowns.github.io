@@ -24,7 +24,7 @@
     "class": "aura"
   },
   {
-    "title": "jiffy",
+    "title": "Jiffy",
     "info": "react app",
     "post": "2020-07-31-jiffy",
     "permalink": "jiffy",
@@ -38,5 +38,37 @@
     "permalink": "lachua",
     "type": "website",
     "class": "lachua"
+  },
+  {
+    "title": "twinklestar.voyage",
+    "info": "RPG Web App",
+    "post": "2020-07-31-twinklestar",
+    "permalink": "twinklestar",
+    "type": "github",
+    "class": "twinklestar"
+  },
+  {
+    "title": "Kane Pour",
+    "info": "portfolio website",
+    "post": "2020-07-31-kane",
+    "permalink": "kane",
+    "type": "website",
+    "class": "kane"
+  },
+  {
+    "title": "Spice Info",
+    "info": "Slack app",
+    "post": "2020-07-31-spice",
+    "permalink": "spice",
+    "type": "github",
+    "class": "spice"
+  },
+  {
+    "title": "Defi Chirp",
+    "info": "Twitter Bot",
+    "post": "2020-07-31-chirp",
+    "permalink": "chirp",
+    "type": "github",
+    "class": "chirp"
   }
 ]
